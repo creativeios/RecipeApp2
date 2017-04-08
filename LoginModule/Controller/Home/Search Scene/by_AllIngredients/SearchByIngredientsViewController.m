@@ -350,6 +350,9 @@
         [arrOfIngResult addObject:[_arrDailyRecipes firstObject]];
     }
     
+    
+   
+    
    IngredientResultVC *objIngVc = [self.storyboard instantiateViewControllerWithIdentifier:@"IngredientResultVC"];
     objIngVc.searchedResult = arrOfIngResult;
     objIngVc.finalResult = arrF;

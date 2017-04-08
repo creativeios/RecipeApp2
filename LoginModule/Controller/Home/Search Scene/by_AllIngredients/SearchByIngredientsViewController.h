@@ -15,6 +15,7 @@
 #import "UIKit+AFNetworking.h"
 #import "Recipe.h"
 
+
 @interface SearchByIngredientsViewController : UIViewController<UICollectionViewDelegate,UICollectionViewDataSource> {
     
     NSInteger rowCount;
